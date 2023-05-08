@@ -49,3 +49,25 @@
   75% { background-color: #FF033E; width: 125x }
   100% { background-color: crimson; width: 10px }
 }
+
+
+
+section{
+  height: 400px;
+  width: 400px;
+  background: red;
+}
+
+.inner-div{
+  background: blue;
+  height: 200px;
+  width: 200px;
+  animation: move-div 5s;
+}
+
+@keyframes move-div{
+  0%{transform: translateX(0) translateY(0)}
+  25%{transform:translateX(0) translateY(100%)}
+  50%{transform: translateX(100%) translateY(100%)}
+  75%{transform: translateX(100%) translateY(0)}
+}
