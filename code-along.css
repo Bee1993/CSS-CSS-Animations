@@ -38,11 +38,14 @@
   width: 500px;
   margin: auto;
   background-color: palegreen;
-
+  animation-name: sale-bar;
+  animation-duration: 10s;
 }
 
 @keyframes sale-bar {
-  0% { background-color: lightgreen; width: 450px }
+  0% {background-color: lightgreen; width: 450px;}
+  25%{background: blueviolet; width: 350px;}
+  50%{ background: yellow; width: 224px;}
   75% { background-color: #FF033E; width: 125x }
   100% { background-color: crimson; width: 10px }
 }
